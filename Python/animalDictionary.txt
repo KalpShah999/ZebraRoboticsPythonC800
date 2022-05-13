@@ -1,0 +1,12 @@
+hippo,calf
+horse,foal
+dog,pup
+kangaroo,joey
+monkey,infant
+owl,owlet
+parrot,chick
+rabbit,bunny
+rat,pup
+cow,calf
+skunk,kit
+sheep,lamb
