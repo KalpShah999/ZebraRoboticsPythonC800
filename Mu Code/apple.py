@@ -1,3 +1,4 @@
+#Run the "main.py" to run the snake game
 import random
 import pygame
 from config import Config
