@@ -1,3 +1,4 @@
+#Run the "main.py" to run the snake game
 Config = {
     'game': {
         'caption': 'Snake',
