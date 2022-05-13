@@ -1,3 +1,4 @@
+#Run this file to run the snake game
 import pygame
 from snake import Snake
 from apple import Apple
