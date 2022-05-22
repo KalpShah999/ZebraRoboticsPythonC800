@@ -1,11 +1,15 @@
 sentence = input("Enter a sentence: ")
 shift = (int)(input("How much should the shift be? "))
-s = ""
+finalCharacter = ""
 
 for char in sentence:
     if char == " ":
-        s += " "
+        finalCharacter += " "
     else: 
-        s += chr(((ord(char) - 97) + shift) % 26 + 97)
+        s = (ord(char) - 97) + shift
+        if (s >= 26):
+            s -= 26
+        s += 97
+        finalCharacter += chr(s)
         
-print(s)
+print(finalCharacter)
