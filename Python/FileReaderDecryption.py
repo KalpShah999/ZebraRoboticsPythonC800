@@ -2,11 +2,12 @@ file = open("encryptedFile.txt")
 s = ""
 
 while True:
-    character = file.read(1) 
+    character = file.read(2) 
+    
     if not character:
         break
-    s += character
-    character = file.read(1)
+    
+    s += character[0]
     
 file.close()
 
