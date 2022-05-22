@@ -1,4 +1,3 @@
-#Run the "main.py" to run the snake game
 import pygame
 from snake import Snake
 from apple import Apple
@@ -16,6 +15,11 @@ class Game:
         self.spawnedSnake = Snake()
         self.gameEnded = False
         self.quitVar = True
+        while (self.quitVar):
+            if (not self.gameEnded):
+                self.loop()
+            else:
+                self.gameOver()
 
     def loop(self):
         self.screen.fill(Config.get("colors").get("black"))
